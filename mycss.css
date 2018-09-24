@@ -1,0 +1,494 @@
+.ahimsa_logo {
+margin-top:5px;
+height:100px;
+width:100px;
+margin-right:7%;
+}
+.miet_logo {
+margin-top:5px;  
+height:100px;
+width:100px;
+margin-left:7%;
+}
+
+
+
+
+/*                  About Us                 */
+
+.about_us{
+	height:auto;
+	width:100%;
+	background-color:white;
+}
+.about_us h1{
+	text-align: center;
+	font-size:25px;
+	font-family:Faster one;
+	color:black;
+  padding-top:55px;
+}
+.about_us img{
+  margin-top:2%;
+	height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+	}
+.about_us p{
+  margin-top:-3%;
+  padding-bottom:3%;
+   padding-left:7%;
+  padding-right:7%;
+
+}
+
+.about_us h2{
+  margin-top:-3%;
+  margin-bottom:5%;
+  margin-left:10%;
+  margin-right:10%;
+  font-size:20px;
+  text-align:justify;
+}
+.typewrite{
+  color:black;
+  font-family:arial;
+}
+
+
+/*                               coming soon                           */
+
+body, html {
+    height: 90%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('images/Ahimsa/Aavaran.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+
+  /*             SLIDER                          */
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:100%;
+  position: relative; 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 5px}
+}
+
+
+
+/*                        Events                                      */
+.miet{
+    background:white;
+    height:auto;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  .miet h1{
+    padding-top:4%;
+
+  }
+  .mt_bot{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-flow:wrap;
+
+  }
+  
+.bot{
+    height:350px;
+    width:360px;
+    margin:20px;
+    box-sizing:border-box;
+    font-size:20px;
+    position:relative;
+    padding:10px;
+    margin-top:4%;
+    font-family:cursive;
+    
+  }
+  #bot1{
+    background:url(images/Ahimsa/Blood_donation1.jpg);
+    background-size:cover;
+    background-position:center;
+  }
+
+ #bot2{
+    background:url(images/Ahimsa/Donation.jpg);
+    background-size:cover;
+    background-position:center;
+  }
+  #bot3{
+    background:url(images/Ahimsa/Akshay_jyoti.jpg);
+    background-size:cover;
+    background-position:center;
+  }
+  .small_bot
+   {text-align:center;
+    margin-top:320px;
+
+  }
+  .bot h2
+  {
+    margin-top:340px;
+    font-size:20px;
+    text-align:center;
+    color:black
+  }
+.bot:after
+{   position:absolute;
+    content:attr(data_text);
+    bottom:0;
+    left:0;
+    right:0;
+    word-wrap:break-word;
+    overflow:hidden;
+    background-color:rgba(0,0,0,.5);
+    color:white;
+    padding:5px;
+    opacity:1;
+    transition:1s;
+    top:100px;
+    transform: scale(0);
+    -webkit-transition: .4s ease;
+   
+
+}
+.bot:hover:after
+{
+
+ opacity:3;
+    top:0;
+    transform:scale(1);
+} 
+  @media screen and (max-width:1350px) {
+
+  .bot{
+    width:40%;
+  }
+}
+  @media screen and (max-width:600px) {
+
+         .bot{
+    width:90%;   
+      }
+ } 
+
+
+
+    /*                   FAQ       */ 
+
+.accordion {
+  margin-top:5%;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.test
+{
+  height:600px;
+  width:cover;
+  background-color:black;
+}
+.un_test1,.un_test2
+
+{
+  height:300px;
+  width:300px;
+  background-color:white;
+  position:absolute;
+  margin-left:50%;
+  margin-right:auto;
+  margin-top:30px;
+}
+.un_test2
+{
+  height:300px;
+  width:300px;
+  background-color:white;
+  position:relative;
+  margin-top:30px;
+  margin-right:50%;
+  margin-left:auto;
+}
+
+/*                         Mentor                           */
+
+.mentor{
+    height:350px;
+    width:320px;
+    margin-bottom:70px;
+    box-sizing:border-box;
+    font-size:20px;
+    position:relative;
+    padding:10px;
+    margin-top:20px;
+    font-family:Aguafina Script;
+  }
+  #mentor{
+    background:url("images/Ahimsa/Pankaj_sir.jpg");
+        background-size:cover;
+  }
+
+/*                                      Management Team                               */
+
+  .mgmt{
+    background:url(images/Ahimsa/management_team.jpg);
+    height:auto;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  .mgmt_box{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-flow:wrap;
+
+  } 
+
+ 
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border:1px solid skyblue;
+  padding:1px;
+  margin:7%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:skyblue;
+  color: black;
+  transform: rotateY(180deg);
+}
+.flip-card-back button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.flip-card-back a:hover{
+ color:white;
+}
+.flip-card-back button:hover{
+color:black;
+background:white;
+}
+
+@media screen and (max-width:860px) {
+
+  .box{
+    width:75%;
+  }
+}
+  @media screen and (max-width:00px) {
+        .box{
+    width:90%;   
+      }
+ } 
+
+
+
+/*                               last division                                 */
+.social_icon {
+  display:inline;
+  height:auto;
+  width:100%;
+  background-color:black;
+ float:left;
+}
+.social_icon ul{
+  margin-left:20%; 
+  margin-top:15px;
+  margin-right:auto;
+}
+.copyright{
+  color:white;
+  font-size:15px;
+  margin-top:15px;
+  text-align:center;
+}
+.copyright:hover{
+  color:skyblue;
+}
